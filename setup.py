@@ -4,18 +4,18 @@ from setuptools import setup, find_packages
 import subprocess
 
 setup(name="singer-python",
-      version='5.9.0',
+      version='5.9.1',
       description="Singer.io utility library",
       author="Stitch",
       classifiers=['Programming Language :: Python :: 3 :: Only'],
       url="http://singer.io",
       install_requires=[
-          'pytz==2018.4',
+          'pytz==2018.9',
           'jsonschema==2.6.0',
           'simplejson==3.11.1',
           'python-dateutil>=2.6.0',
           'backoff==1.8.0',
-	  'ciso8601',
+          'ciso8601',
       ],
       extras_require={
           'dev': [
