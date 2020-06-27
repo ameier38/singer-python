@@ -22,8 +22,7 @@ setup(name="singer-python",
               'pylint',
               'ipython',
               'ipdb',
-              'nose',
-              'singer-tools'
+              'nose'
           ]
       },
       packages=find_packages(),
